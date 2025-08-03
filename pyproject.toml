@@ -1,0 +1,18 @@
+[project]
+name = "qpysdl3gamepad"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Yifei Liu", email = "34564223+EzekielDaun@users.noreply.github.com" },
+]
+readme = "README.md"
+requires-python = ">=3.10, <3.14"
+dependencies = ["pyside6 (>=6.6.0,<7.0.0)", "pysdl3 (>=0.9.5b5,<0.10.0)"]
+
+[tool.poetry]
+packages = [{ include = "qpysdl3gamepad", from = "src" }]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
